@@ -30,13 +30,6 @@ const searchCountry = async searchInput => {
   resultHtml(matches);
 };
 
-// function currency(match) {
-//   match.currencies.array.forEach(innerCurrency => {
-//     innerCurrency.name;
-//     console.log(innerCurrency.name);
-//   });
-// }
-
 // Results in html
 const resultHtml = matches => {
   if (matches.length > 0) {
