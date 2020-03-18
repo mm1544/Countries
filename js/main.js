@@ -21,7 +21,7 @@ const searchCountry = async searchInput => {
   });
 
   // If input field is empty then 'matches' array is empty
-  if (searchInput.length === 0) {
+  if (searchInput.length === 0 || matches.length === 0) {
     matches = [];
     matchList.innerHTML = '';
   }
